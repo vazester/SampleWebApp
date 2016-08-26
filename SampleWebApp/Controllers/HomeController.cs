@@ -26,5 +26,11 @@ namespace SampleWebApp.Controllers
 
             return View();
         }
+
+        public ActionResult Help()
+        {
+            ViewBag.Message = "To get help";
+            return View();
+        }
     }
 }
